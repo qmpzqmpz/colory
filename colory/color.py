@@ -13,11 +13,12 @@ import tkinter
 
 path = os.path.dirname(__file__)
 col_files = {'wiki': path + '/wiki_colors/wiki_colors.csv',
-             'xkcd': path + '/xkcd_colors/xkcd_colors.csv'}
+             'xkcd': path + '/xkcd_colors/xkcd_colors.csv',
+             'mat': path + '/mat_colors/mat_colors.csv'}
 # read in both color lists
 colors = {key: {} for key in col_files}
 for key, fname in col_files.items():
-    with open(fname) as f:
+    with open(fname, encoding='UTF8') as f:
         lis = [line.split(',') for line in f]
         for hex_val, name in lis:
             colors[key][hex_val] = name.rstrip()
@@ -55,7 +56,7 @@ class Color:
             color_to_compare_hex = hex_color
             if self.euclidean_calculate(self.value, color_to_compare_hex) < min_diff:
                 min_diff = self.euclidean_calculate(self.value, color_to_compare_hex)
-                color = color_name.title()
+                color = color_name
         return color
 
     def euclidean_calculate(self, c1, c2):
