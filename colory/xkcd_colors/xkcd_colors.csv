@@ -300,7 +300,6 @@
 0xa442a0,ugly purple
 0xf36196,medium pink
 0x947706,puke brown
-0xfff4f2,very light pink
 0x1e9167,viridian
 0xb5c306,bile
 0xfeff7f,faded yellow
@@ -329,7 +328,6 @@
 0xffa62b,mango
 0x01b44c,shamrock
 0xff6cb5,bubblegum
-0x6b4247,purplish brown
 0xc7c10c,vomit yellow
 0xb7fffa,pale cyan
 0xaeff6e,key lime
@@ -404,7 +402,6 @@
 0x419c03,grassy green
 0xb1ff65,pale lime green
 0x9dbcd4,light grey blue
-0xfdfdfe,pale grey
 0x77ab56,asparagus
 0x464196,blueberry
 0x990147,purple red
@@ -800,6 +797,7 @@
 0x80013f,wine
 0xb1d1fc,powder blue
 0xffffe4,off white
+0xf0f0f0,whitesmoke
 0x0652ff,electric blue
 0x045c5a,dark turquoise
 0x5729ce,blue purple
@@ -836,7 +834,7 @@
 0x380835,eggplant
 0xfffe7a,light yellow
 0x5ca904,leaf green
-0xd8dcd6,light grey
+0xb1b3b3,light grey
 0xa5a502,puke
 0xd648d7,pinkish purple
 0x047495,sea blue
